@@ -22,7 +22,8 @@ Irene Ginani Costa Pinheiro
 
 ## Politica de colaboração
 
-**Colaborador**
+**Colaboradores**
+
 Johnnylee Bryan
 - [GitHub] (https://github.com/kfjohnny2)
 
