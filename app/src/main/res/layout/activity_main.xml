@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="330dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:editable="false"
+        android:focusable="false"
+        android:inputType="textMultiLine"
+        android:selectAllOnFocus="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/consulta_mem" />
+
+    <Button
+        android:id="@+id/consulta_mem"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Memória"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/consulta_cpu"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="CPU"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:layout_marginLeft="200dp"
+        android:id="@+id/donut_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:donut_progress="0"
+        android:layout_alignParentTop="true" />
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:layout_marginLeft="10dp"
+        android:id="@+id/donut_progress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:donut_progress="0"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU"
+        android:layout_below="@+id/donut_progress2"
+        android:layout_alignLeft="@+id/donut_progress2"
+        android:layout_alignStart="@+id/donut_progress2"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memória"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_below="@+id/donut_progress"
+        android:layout_alignLeft="@+id/donut_progress"
+        android:layout_alignStart="@+id/donut_progress" />
+
+</RelativeLayout>
+
