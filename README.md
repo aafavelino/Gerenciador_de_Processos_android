@@ -8,7 +8,7 @@ Este app é o projeto para obtenção da nota final da disciplina de Sistemas Op
 ## Compilação e execução
 Para compilar e executar você vai precisar do Android Studio e instalar é pedido...
 
-Abaixo segue o link de como instalar...
+Segue o link de como instalar...
 https://developer.android.com/studio/install.html
 
 
@@ -31,7 +31,7 @@ Antônio Salsa
 
 ## Disponível em:
 
-[Projeto Gremlins](https://github.com/aafavelino/Gerenciador_de_Processos_android)
+[Projeto Gerenciador de Processos Android](https://github.com/aafavelino/Gerenciador_de_Processos_android)
 
 
 
